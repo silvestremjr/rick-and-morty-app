@@ -7,7 +7,8 @@
     "build": "vue-cli-service build",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "start": "node server.js"
+    "start": "node server.js",
+    "heroku-postinstall": "npm install && npm run build"
   },
   "dependencies": {
     "apollo-boost": "^0.4.9",
