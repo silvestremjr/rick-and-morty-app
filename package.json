@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "postinstall": "if test \"$NODE_ENV\" = \"production\" ; then npm run build ; fi ",
+    "postinstall": "npm run build",
     "start": "node server.js"
   },
   "dependencies": {
