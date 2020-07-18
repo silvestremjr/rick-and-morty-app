@@ -1,19 +1,34 @@
-# rick-and-morty-app
+# Rick and Morty App
 
-## Project setup
+App developed using Rick and Morty Graphql in Vue.js
+
+### Installing
+Install dependencies
+
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Run
+Run local serve
+
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+## Running the tests
+
+All components are covered with unit tests.
+To run component tests:
+
 ```
-yarn build
+yarn jest
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Storybook
+
+To run component storybook:
+
+```
+yarn storybook
+```
