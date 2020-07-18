@@ -1,6 +1,6 @@
 # Rick and Morty App
 
-App developed using Rick and Morty Graphql in Vue.js
+App developed using [Rick and Morty Graphql](https://rickandmortyapi.com/documentation/#graphql) in Vue.js
 
 ### Installing
 Install dependencies
