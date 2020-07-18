@@ -4,7 +4,6 @@
       <router-link class="navbar-brand" :to="{ path: '/' }"
         ><img src="/img/logo.png" alt=" Rick and Morty" height="70"
       /></router-link>
-
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav">
           <router-link
