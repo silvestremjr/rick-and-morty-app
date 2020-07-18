@@ -4,21 +4,57 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "apollo-boost": "^0.4.9",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
+    "vue-apollo": "^3.0.0-beta.11",
+    "vue-class-component": "^7.2.3",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
   },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "vue"
+    ],
+    "transform": {
+      "^.+\\.js$": "babel-jest",
+      ".*\\.(vue)$": "vue-jest"
+    }
+  },
   "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-events": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/vue": "^5.3.19",
+    "@testing-library/jest-dom": "^5.11.1",
+    "@testing-library/vue": "^5.0.4",
     "@vue/cli-plugin-babel": "~4.4.0",
     "@vue/cli-plugin-router": "~4.4.0",
     "@vue/cli-plugin-vuex": "~4.4.0",
     "@vue/cli-service": "~4.4.0",
-    "node-sass": "^4.12.0",
+    "@vue/test-utils": "^1.0.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^26.1.0",
+    "babel-loader": "^8.1.0",
+    "babel-preset-vue": "^2.0.2",
+    "event-emitter": "^0.3.5",
+    "graphql-tag": "^2.9.0",
+    "jest": "^26.1.0",
+    "sass": "^1.19.0",
     "sass-loader": "^8.0.2",
+    "storybook-vue-router": "^1.0.7",
+    "vue-cli-plugin-apollo": "~0.22.2",
+    "vue-cli-plugin-vuetify": "~2.0.6",
+    "vue-jest": "^3.0.6",
     "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [
